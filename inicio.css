@@ -17,7 +17,7 @@ body{
     
 }
 .cabecalho a {
-    color: #ffffff;
+    color: #000000;
     text-decoration: none;
     font-weight: bold;
 }
@@ -74,8 +74,9 @@ body{
 }
 nav{
 
- 
+    display: block;
     padding: 50px;
+    margin-top: 400px;
     
    
 }
@@ -85,9 +86,14 @@ nav{
     padding-top: 20px;
     padding-right: 150px;
 }
+.texto{
+    display: block;
+    margin-top: 40px;
+}
 nav h1{
     font-size: 30px;
     font-weight: bold;  
+    margin: 0 90px;
 
 }
 nav h1 + h1{
@@ -95,12 +101,12 @@ nav h1 + h1{
 }
 nav h2{
     padding-top: 50px   ;
-    padding-left: 100px;
+    padding-left: 120px;
     font-size: 22px;
 }
 nav h2 + h2{
     padding-top: 10px   ;
-    padding-left: 120px;
+    padding-left: 160px;
     font-size: 22px;
 }
 .principal{
@@ -112,14 +118,14 @@ nav h2 + h2{
     width: 80%;
     border-radius: 15px;
     overflow: hidden;
-    padding-left: 50px;
+    padding:0 20px 20px;
     background-color: #FFB320;
 }
 .cartao-meio{
     width: 80%;
     border-radius: 15px;
     overflow: hidden;
-    padding-left: 50px;
+    padding:0 20px 20px;
     background-color: #008E97;
 }
 
@@ -128,10 +134,10 @@ article{
     padding-right: 50px;
 }
 .cartao-conteudo{
-    padding: 16px;
+
     display: grid;
-    grid-template-columns: 1fr 1fr ;
-    gap: 8px
+   
+    gap: 10px
         ;
 }
 .cartao-titulo{
@@ -142,26 +148,28 @@ article{
 .cartao-menssagem{
     font-size: 0.9rem   ;
 }
-.cartao-botao{
+
+
+.cartao-botao {
     appearance: button;
-    
-    justify-content: center;
-    text-align: center;
     background-color: #008E97;
-    width: 100%;
-    height: 40px;
     border-radius: 10px;
-    font-size: 0.9rem;
+    font-size: 15px;
     text-decoration: none;
+    padding: 15px;
+    text-align: center;
+    color: black;
+    font-weight: 500;
 }
+
 .cartao-botao-meio{
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    appearance: button;
     background-color: #FFB320;
-    width: 100%;
-    padding: 10px;
-    height: 40px;
     border-radius: 10px;
-    font-size: 0.9rem;
+    font-size: 15px;
+    text-decoration: none;
+    padding: 15px;
+    text-align: center;
+    color: black;
+    font-weight: 500;
 }

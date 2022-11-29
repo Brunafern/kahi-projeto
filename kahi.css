@@ -1,0 +1,129 @@
+body{
+    
+    font-family: 'Open Sans', 'icones', sans-serif;
+   height: 100vh;
+   width: 100vw;
+    background: gainsboro;
+}
+
+.cabecalho{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  
+    padding: 15px 16px;
+
+    margin: 10px;
+    
+}
+.cabecalho a {
+    color: #000000;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 20px;
+}
+.search-box{
+    height: 25px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;    
+    padding: 10px;
+    border-radius: 10px;
+    width: 50%;
+    background-color: white;
+}
+.barra-pesquisa{
+    border: none;
+    outline: none;
+    width: 80%;
+  
+}
+.botao-pesquisa{
+    color: #ffffff;
+}
+.main{
+    font-family: sans-serif;
+}
+.progresso {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    padding: 30px 0px 0 80px;
+    font-family: sans-serif;
+    font-size: 50px;
+
+}
+.barra{
+    display: flex;
+    align-items: center;
+    width: 55%;
+    height: 40px;
+    border-radius: 15px;
+    background-color: #FFB320;
+    margin: 30px 120px;
+}
+
+.barra-azul-0{
+    width: 0%;
+    height: 100%;
+    border-radius: 15px;
+    background-color: #008E97;;
+}
+
+.barra-azul--ativo--25{
+    width: 25%;
+}
+
+.barra-azul--ativo--50{
+    width: 50%;
+}
+
+.barra-azul--ativo--75{
+    width: 75%;
+}
+
+.barra-azul--ativo--100{
+    width: 100%;
+}
+
+.continue{
+    appearance: button;
+    height: 40px;
+    width: 30%;
+    font-size: 35px;
+    background-color:#ffffff;
+    border-radius: 15px;
+    text-align: center;
+    margin: 20px 200px 0px;
+    font-family: sans-serif;
+    padding-top: 15px;
+    box-shadow:  5px 5px  #000000 ;
+}
+.topicos {
+    font-family: sans-serif;
+    margin: 80px 100px;
+    width: 60%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.topicos-botao{
+    appearance: button;
+    background-color: #008E97;
+    width: 90%;
+    height: 40px;
+    border-radius: 15px;
+    text-align: center;
+    margin-top: 10px;
+    padding-top: 15px;
+    font-size: 20px;
+}
+.topicos-botao-baixo{
+    appearance: button;
+    background-color: #FFB320;
+    width: 90%;
+    height: 40px;
+    border-radius: 15px;
+    text-align: center;
+    margin-top: 10px;
+    padding-top: 10px;
+    font-size: 20px;
+}

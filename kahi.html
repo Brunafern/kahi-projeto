@@ -4,20 +4,56 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="inicio.css">
+    <link rel="stylesheet" href="kahi.css">
     <link rel="stylesheet" href="reset.css">
-    <title>Kahi | Inicio |</title>
+    <title>Kahi | Inicio </title>
 </head>
 <body>
     <header class="cabecalho">
-        <a class="cabecalho_perfil" aria-label="Perfil" value='&#941'></a>
+        <a class="cabecalho_perfil" aria-label="Perfil" type="buttom"><i>A</i></a>
     
         <div class="search-box">
+        
             <input type="search" class="barra-pesquisa" placeholder="Faça sua pesquisa">
             <img type="submit"  src="lupa-arredondada.png" class="botao-pesquisa">
         </div>
         <a class="cabecalho_menu" aria-label="Menu" href="inicial.html"><i>| Kahi |</i></a>
     </header>
+    <main>
+        <h1 class="progresso">Seu Progresso</h1>
+        <div class="barra">
+            <div class="barra-azul-0">
+            </div>
+            <div class="barra-100">
+            </div>
+        </div>
+        <a type="buttom" class="continue">Continue a sua lição</a>
+        <div class="topicos">
+            <a class="topicos-botao topicos-botao1" type="bottom">
+                <input type="checkbox" class="cima" onkeyup="alterarprogresso()" >
+                <label for="cima">Conteudo 1</label>
+                
+                
+            </a>
+            <a class="topicos-botao topicos-botao2" type="bottom">
+                <input type="checkbox" class="cima" >
+                <label for="cima">Conteudo 2</label>
+                
+            </a>
+            <a class="topicos-botao-baixo topicos-botao3" type="bottom">
+                <input type="checkbox" id="baixo" >
+                <label for="cima">Conteudo 3</label>
+            
+            </a>
+
+            <a class="topicos-botao-baixo topicos-botao4" type=  "bottom">
+                <input type="checkbox" id="baixo" >
+                <label for="cima">Conteudo 4</label>
+            </a>
+        </div>
+        
+    </main>
+    <script src="index.js"></script>
     
 </body>
 </html>
